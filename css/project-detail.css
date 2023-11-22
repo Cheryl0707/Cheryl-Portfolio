@@ -214,8 +214,16 @@
 .section{
     width: 100%;
     height: auto;
+    margin-bottom:3rem;
 }
-
+.section-flex-column{
+    width: 100%;
+    height: auto;
+    margin-bottom:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 .project-title-bg-image{
     width: 100%;
@@ -306,6 +314,7 @@
     height: auto;
     display: flex;
     justify-content: flex-start;
+    
 }
 
 .headline-flex-start h1{
@@ -314,13 +323,16 @@
     font-family: 'Futura';
     font-style: oblique;
     margin-left: 3rem;
+    margin-top: 3rem;
     /* margin-bottom: 10vh; */
 }
+
 
 .sub-headline h3{
     font-family: 'Futura';
     font-style: oblique;
     margin-left: 3rem;
+    margin-top: 3rem;
     /* margin-bottom: 10vh; */
 }
 
@@ -350,6 +362,7 @@
     
 }
 
+
 .section-divided-by-3-elements{
     width: 26vw;
     height: auto;
@@ -368,6 +381,45 @@
 .section-divided-by-3-elements p{
     width: 100%;
     height: auto;
+}
+.section-divided-by-3-elements-same-height{
+    width: auto;
+    height: 44vh;
+    padding-right: 0.5rem;
+      /* display: flex; */
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+}
+
+.section-divided-by-3-elements-same-height img{
+    width: auto;
+    height: 100%;
+}
+.section-divided-by-3-elements-same-height p{
+    width: auto;
+    height: 100%;
+}
+
+.section-divided-by-3-elements-same-height-1{
+    width: auto;
+    height: 33vh;
+    padding-right: 0.5rem;
+      /* display: flex; */
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+}
+
+.section-divided-by-3-elements-same-height-1 img{
+    width: auto;
+    height: 100%;
+}
+.section-divided-by-3-elements-same-height-1 p{
+    width: auto;
+    height: 100%;
 }
 
 .section-divided-by-2-text-image{
@@ -393,6 +445,18 @@
     font-style: oblique;
 
 }
+.section-divided-by-2-elements-40-percent p{
+    width: 100%;
+    height: auto;
+    font-family: 'Futura';
+    /* font-style: oblique; */
+}
+.section-divided-by-2-elements-40-percent img{
+    width: 100%;
+    height: auto;
+   
+}
+
 .section-divided-by-2-elements-50-percent{
     width:36vw;
     height:auto;
@@ -414,9 +478,25 @@
 .section-divided-by-2-elements-60-percent{
     width:48vw;
     height:auto;
+    
+}
+.section-divided-by-2-elements-60-percent h1{
+    width: 100%;
+    height: auto;
+    font-family: 'Futura';
+    font-style: oblique;
+}
+
+.section-divided-by-2-elements-60-percent p{
+    width: 100%;
+    height: auto;
+    font-family: 'Futura';
+    margin-left: 3rem;
+    /* font-style: oblique; */
 }
 
 .section-divided-by-2-elements-60-percent img{
     width: 100%;
     height: auto;
+    margin-left: 3rem;
 }

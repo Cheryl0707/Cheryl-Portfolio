@@ -53,6 +53,9 @@ h1,h2,h3,h4{
     color:#000000;
     font-family: 'Monument Extended';
 
+    /* font-family: 'Futura'; */
+    /* font-style: oblique; */
+    
 }
 
 p{
@@ -157,7 +160,7 @@ nav span a:hover, nav span a:focus{
 
 .main-intro-headline-big{
 
-    font-family:'Monument Extended';
+    font-family:'Futura';
     color:rgb(60, 60, 60);
     text-decoration: none;
 	z-index: 1;
@@ -179,7 +182,7 @@ nav span a:hover, nav span a:focus{
 
     width: 50vw;
     margin-top: 0rem;
-    font-family:'Monument Extended';
+    font-family:'Futura';
     color:rgb(60, 60, 60);
     text-decoration: none;
     
@@ -214,7 +217,7 @@ nav span a:hover, nav span a:focus{
 .section-header h2{
     color:rgb(0, 0, 0);
     font-size: 3rem;
-    font-family:'Monument Extended';
+    font-family:'Futura';
 }
 
 .section-header h2:hover, .section-header:focus{
