@@ -1,0 +1,422 @@
+
+/* side bar */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.wrapper .sidebar{
+  width: 15vw;
+  height: 100%;
+  /* background: #4b4276; */
+  /* background: #ffffff; */
+  border-right: 1px solid rgba(0,0,0,0.05);
+  padding: 2vw 0vw;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+.wrapper .sidebar ul{
+    list-style:none;
+    padding-left:1vw;
+    
+    /* border-top: 1px solid rgba(0,0,0,0.05); */
+
+}
+.wrapper .sidebar ul h5{
+    color: rgb(163, 158, 237);
+    padding-top:2px;
+    margin: 0;
+    
+}
+
+.wrapper .sidebar ul li{
+  padding: 1px 0px;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Futura';
+  font-style: italic;
+  /* border-bottom: 1px solid #bdb8d7; */
+  /* border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05); */
+}    
+
+.wrapper .sidebar ul li a{
+  color: #000000;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+/* .wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+} */
+    
+.wrapper .sidebar ul li:hover a{
+    color: rgb(163, 158, 237);
+    text-decoration: none;
+    transition: background-color 0.5s ease-out;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 82vw;
+  height: auto;
+  margin-left: 15vw;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info-shootingstar{
+    width: 100%;
+    height:56vh;
+    border: #000000 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-image: url("../image/shooting-star/shooting-star-cover.png");
+    background-color: #cccccc;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+.wrapper .main_content .info-dearson{
+    width: 100%;
+    height:56vh;
+    border: #000000 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-image: url("../image/dear-son/dear-son-cover.png");
+    background-color: #cccccc;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+
+.wrapper .main_content .info-thejoureyison{
+    width: 100%;
+    height:56vh;
+    border: #000000 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-image: url("../image/343/the-journey-is-on-cover.png");
+    background-color: #cccccc;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+.wrapper .main_content .info-animolopoly{
+    width: 100%;
+    height:60vh;
+    border: #000000 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* background-image: url("../image/343/the-journey-is-on-cover.png"); */
+    background-color: #000000;
+    background-size: cover;
+    /* margin-bottom: 10vh; */
+}
+.wrapper .main_content .info-animolopoly h1{
+    color: #FCDF90;
+}
+.wrapper .main_content .info-animolopoly p{
+    color: #FCDF90;
+}
+
+.wrapper .main_content .info-Pærs{
+    width: 100%;
+    height:64vh;
+    /* border: #000000 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* background-image: url("../image/343/the-journey-is-on-cover.png"); */
+    background-color: #ffffff;
+    background-size: cover;
+    
+    /* margin-bottom: 10vh; */
+}
+.wrapper .main_content .info-Pærs p {
+    color: #000000;
+}
+.wrapper .main_content .info-Pærs h1 {
+    color: #000000;
+}
+
+.wrapper .main_content .info-quasimodo{
+    width: 100%;
+    height:64vh;
+    /* border: #000000 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* background-image: url("../image/343/the-journey-is-on-cover.png"); */
+    background-color: #ffffff;
+    background-size: cover;
+    
+    /* margin-bottom: 10vh; */
+}
+.wrapper .main_content .info-quasimodo p {
+    color: #000000;
+}
+.wrapper .main_content .info-quasimodo h1 {
+    color: #000000;
+}
+
+
+.wrapper .main_content .info div{
+  margin-bottom: 0px;
+}
+
+@media (max-height: 500px){
+  .social_media{
+    display: none !important;
+  }
+}
+
+/* side bar end here */
+
+.section{
+    width: 100%;
+    height: auto;
+}
+
+
+.project-title-bg-image{
+    width: 100%;
+    height: auto;
+}
+
+.project-name{
+    margin:3rem;
+    margin-bottom: 0;
+    padding-top:2rem;
+}
+
+.project-name h1{
+    font-family: 'futura';
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: italic;
+    color: #fff;
+}
+
+.project-description{
+    margin-left: 3rem;
+}
+
+.project-description p{
+    width:60%;
+    height: auto;
+    padding-top: 0;
+    color: #fff;
+}
+
+.paragraph-centered{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-centered p{
+    width: 80%;
+    height: auto;
+    font-family: 'Futura';
+    margin-bottom: 20vh;
+
+}
+
+.image-column{
+    width: 100%;
+    height: auto;
+}
+
+.image-column img{
+    width: 100%;
+    height: auto;
+}
+
+.image-centered{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.image-centered img{
+    width: 90%;
+    height: auto;
+    margin: 2rem;
+    margin-top:0;
+}
+
+.headline{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.headline h1{
+    width: 21%;
+    height: auto;
+    font-family: 'Futura';
+    font-style: oblique;
+    /* margin-bottom: 10vh; */
+
+}
+.headline-flex-start{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headline-flex-start h1{
+    width: 100%;
+    height: auto;
+    font-family: 'Futura';
+    font-style: oblique;
+    margin-left: 3rem;
+    /* margin-bottom: 10vh; */
+}
+
+.sub-headline h3{
+    font-family: 'Futura';
+    font-style: oblique;
+    margin-left: 3rem;
+    /* margin-bottom: 10vh; */
+}
+
+.paragraph-flex-start{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.paragraph-flex-start p{
+    width: 100%;
+    height: auto;
+    font-family: 'Futura';
+    margin-bottom: 10vh;
+    margin-left: 3rem;
+
+
+}
+
+.section-divided-by-3{
+    width: 82vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin:3rem;
+    
+}
+
+.section-divided-by-3-elements{
+    width: 26vw;
+    height: auto;
+    padding-right: 0.5rem;
+      /* display: flex; */
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+}
+
+.section-divided-by-3-elements img{
+    width: 100%;
+    height: auto;
+}
+.section-divided-by-3-elements p{
+    width: 100%;
+    height: auto;
+}
+
+.section-divided-by-2-text-image{
+    width: 82vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin: 3rem; */
+}
+
+.section-divided-by-2-elements-40-percent{
+    width:26vw;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.section-divided-by-2-elements-40-percent h1{
+    width: 100%;
+    height: auto;
+    font-family: 'Futura';
+    font-style: oblique;
+
+}
+.section-divided-by-2-elements-50-percent{
+    width:36vw;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+.section-divided-by-2-elements-50-percent h3{
+    width: 100%;
+    height: auto;
+    font-family: 'Futura';
+    font-style: oblique;
+}
+
+.section-divided-by-2-elements-50-percent img{
+    width: 100%;
+    height: auto;
+}
+
+.section-divided-by-2-elements-60-percent{
+    width:48vw;
+    height:auto;
+}
+
+.section-divided-by-2-elements-60-percent img{
+    width: 100%;
+    height: auto;
+}

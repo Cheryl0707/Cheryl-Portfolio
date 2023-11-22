@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cheryl Liu</title>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       
+        <!-- <link rel="stylesheet" href="./cursor.scss"> -->
+    </head>
+    <body>
+        <div class="cursor"></div>
+          <script>
+            var cursor = document.querySelector(".cursor");
+            document.addEventListener("mousemove",function(e){
+                cursor.style.top = e.pageY + "px";
+                cursor.style.left = e.pageX + "px";
+            })
+          </script>
+
+        <header class="header" id="myHeader">
+            <div class="main-logo">
+                <!-- <a href="home.html"><img src="./image/liuruijie.png" alt="logo" width="100px"></a> -->
+                <h2><a href="home.html">CHERYL LIU</a></h2>
+            </div>
+            <div class="nav-bar">
+                <nav>
+                    <a href="./html/projects.html">Projects</a>
+                    <a href="./html/bio.html">About</a>
+                    <a href="./html/playground.html">Playground</a>
+                    <a href="mailto:rla107@sfu.ca">Contact</a>
+                </nav>
+            </div>
+            
+        </header>
+
+        <section id="INTRO">
+            <div class="main-intro">
+                <div class="main-intro-headline">
+                    <h2 data-aos="zoom-in">👋 Hi I'm Cheryl</h2>
+                    <div class="main-intro-headline-small" data-aos="zoom-in">
+                        <p>A <span class="dotted-purple">Digital Designer</span>, and a <span class="dotted-blue">Videographer</span>, Creative and more than a designer.</p>
+                        <p>Scroll down to view my featured projects ⬇️</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <div class="projects-container">
+                <div class="projects">
+                        <div class="project-card" data-aos="fade-up">
+                            <div class="project-card-detail" >
+                                <h3>Chapel Speaker</h3>  
+                                <p>We were inspired by the Notre Dame de Paris and the Victor Hugo novel of the same name to create a bluetooth speaker with a distinctive gothic style modeled after the cathedral. We incorporated the pointed arches, stained-glasses windows, ribbed vaults, and spires into the speaker form and designed the speaker to provide an immersive acoustic experience and excellent aesthetic experience for the user.
+                                </p>
+                                <a href="../Portfolio/html/Chapel-project.html" class="custom-btn btn-13">Read More</a>
+                            </div>
+                            <div class="project-card-image">
+                                <a href="../Portfolio/html/Chapel-project.html"><img src="image/chapel-cover.png" alt="chapel-project-img"></a>
+                            </div>
+                        </div>
+                
+                        <div class="project-card" data-aos="fade-up">
+                            <div class="project-card-detail" >
+                                <h3>Music Recitals</h3>
+                                <p>The musical recital is a relax and chill open space in Holland Park. We sought to integrate nature into our design ethos. Our emphasis on nature led us to strategically position the pavilion to maximize natural light penetration, creating an interior space that connects intimately with the sun's radiance throughout the day. This deliberate choice enhances the visitors' immersion in the natural surroundings upon entering the pavilion.
+                                </p>
+                                <a href="../Portfolio/html/pavillion.html" class="custom-btn btn-13">Read More</a>
+                                </div>
+                            <div class="project-card-image">
+                                <a href="../Portfolio/html/pavillion.html"><img src="image/p-intro2.png" alt="chapel-project-img"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        <section id="contact-me">
+            <div class="section-header">
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="left-section">
+                <h3>About Me</h3>
+                   <a href="mailto:rla107@sfu.ca"><p>Projects</p></a> 
+                   <a href="../Portfolio/style-guide.html"><p>Style Guides</p></a> 
+                   <a href="#"><p>Interests</p></a> 
+                </div>
+            
+                <div class="right-section">
+                <h3>Contact</h3>
+                    <a href="mailto:rla107@sfu.ca"><p>Email</p></a> 
+                    <a href="https://www.linkedin.com/in/liu-ruijie-3928ba1ab/"><p>Linkdin</p></a> 
+                    <!-- <a href="#"><p>Facebook</p></a>  -->
+                    <a href="https://www.instagram.com/cheryl_rj07/"><p>Instagram</p></a> 
+                </div>
+            </div>
+
+            <div class="bottom-section">
+                <p>&copy; 2023 Cheryl Liu. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script>
+            AOS.init();
+          </script>
+            
+            <script>// When the user scrolls the page, execute myFunction
+                window.onscroll = function() {myFunction()};
+                
+                // Get the header
+                var header = document.getElementById("myHeader");
+                
+                // Get the offset position of the navbar
+                var sticky = header.offsetTop;
+                
+                // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+                function myFunction() {
+                  if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                  } else {
+                    header.classList.remove("sticky");
+                  }
+                }</script>
+    </body>
+
+</html>
+
+

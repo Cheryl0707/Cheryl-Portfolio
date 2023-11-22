@@ -1,0 +1,301 @@
+.dotted-purple{
+    border-bottom: 1px dashed rgb(163, 158, 237);
+    text-decoration: none; 
+    color: rgb(163, 158, 237);;
+} 
+
+.dotted-blue{
+    border-bottom: 1px dashed rgb(163, 158, 237);
+    text-decoration: none; 
+    color: rgb(163, 158, 237);
+} 
+
+.profile{
+    width: 100vw;
+    display: flex;
+    justify-content:flex-start;
+    /* padding: 3rem; */
+}
+
+
+.profile-image{
+    width:40vw;
+    height: auto;
+    padding:3rem;
+}
+
+.profile-image img{
+    width:100%;
+    height: auto;
+}
+.profile-intro{
+    width:60vw;
+    height: auto;
+    padding:3rem;
+}
+
+.profile-intro h3 a{
+    color: rgb(163, 158, 237);
+}
+.bio-interest{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bio-title{
+    margin-top: 3rem;
+}
+
+.bio-interest-explain{
+    margin-left: 6rem;
+    width: 40vw;
+
+}
+.bio-interest-explain1{
+    margin-right: 6rem;
+    width: 40vw;
+
+}
+.bio-interest-explain p{
+    font-size: 2rem;
+
+}
+.bio-interest-explain1 p{
+    font-size: 2rem;
+
+}
+
+.bio-video{
+    width: 40vw;
+}
+.bio-video video{
+    width: 40vw;
+    height: 50vh;
+}
+
+.bio-video1{
+    width: 40vw;
+    margin-left: 6rem;
+}
+.bio-video1 img{
+    width: 40vw;
+    height: 50vh;
+}
+
+.grids3-display{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid3-section{
+    width: 31vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.grid3-section img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* payment form */
+  
+input{
+    background-color: rgb(255, 255, 255);
+    display: block;
+
+}
+.payment_form{
+  max-width: 40rem;
+  /* background-color: #000000; */
+  padding-bottom: 1rem;
+
+}
+.payment_form h2{
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+.payment_form label{
+   display:block;
+   padding-bottom: 1rem;
+   padding-top: 1rem;
+   
+}
+
+.payment_form input[type="text"]{
+  min-width: 93%;
+  /* padding: 0.6rem; */
+  /* margin-right: 1rem; */
+  /* margin-left: 1rem; */
+  border: 1px solid #777777;
+  border-radius: 1px;
+  /* margin-bottom: 0.5rem; */
+}
+@media screen and (max-width: 900px) {
+    .profile{
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-image{
+        width:60vw;
+        height: auto;
+        padding:3rem;
+        align-items: center;
+
+    }
+    
+    .profile-image img{
+        width:100%;
+        height: auto;
+        align-items: center;
+    }
+    .profile-intro{
+        width:60vw;
+        height: auto;
+        padding:3rem;
+        align-items: center;
+    }
+
+    .main-logo{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:0;
+    }
+    .main-logo h2{
+        margin:0;
+        margin-top: 1rem;
+    }
+   
+    .main-intro{
+        width:100VW;
+        height: 60vw;
+    }
+
+    .nav-bar{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    nav{
+        
+        margin:0;
+
+    }
+    nav a{
+        font-size:16px;
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+    footer {
+        width: 100vw;
+        padding: 20px 0; 
+    }
+
+    .footer-content {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 1rem; 
+    }
+
+    .bottom-section p {
+        font-size: 12px; 
+    }
+
+
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .bio-interest{
+        width:90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bio-interest1{
+        width:90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bio-title{
+       width: 90vw;
+    }
+    
+    .bio-interest-explain{
+        width: 90vw;
+    }
+    .bio-interest-explain p{
+        font-size: 0.9rem;
+    }
+    .bio-interest-explain1 p{
+        font-size: 0.9rem;
+    }
+    
+    .bio-video{
+        /* margin-left: 3rem; */
+        width: 90vw;
+        height: auto;
+    }
+    .bio-video1{
+        margin-left: 3rem;
+        width: 90vw;
+    }
+
+
+    .grids3-display{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .grid3-section{
+        width: 80vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    
+    .grid3-section img{
+        width: 100%;
+        
+        height: auto;
+    }
+}
