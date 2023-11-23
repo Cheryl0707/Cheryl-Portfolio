@@ -763,7 +763,7 @@
         height: auto;
         display: flex;
         justify-content: flex-start; */
-        width: 90vw;
+        width: 100vw;
         height: auto;
         /* padding-right: 0.5rem; */
           /* display: flex; */
@@ -800,7 +800,27 @@
         justify-content: center;
         margin-left:4vw;
         margin-right:4vw;
+        
     }
+    .section-divided-by-3-elements{
+        width: 90vw;
+        height: auto;
+        padding-right: 0.5rem;
+          /* display: flex; */
+        flex-direction: column;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+    }
+    
+    .section-divided-by-3-elements img{
+        width: 100%;
+        height: auto;
+    }
+    .section-divided-by-3-elements p{
+        width: 100%;
+        height: auto;
+    }
+
     .section-divided-by-3-elements-same-height{
         width: 90vw;
         height: auto;
