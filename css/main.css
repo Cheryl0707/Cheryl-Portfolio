@@ -36,7 +36,7 @@ span.dotted-blue:hover,span.dotted-blue:focus{
 }
 
 body {
-    width: 100vw;
+    width: 98vw;
     font-family: sans-serif;
     /* padding: 2rem; */
     background-color: rgb(255, 255, 255);
@@ -53,8 +53,6 @@ h1,h2,h3,h4{
     color:#000000;
     font-family: 'Monument Extended';
 
-    /* font-family: 'Futura'; */
-    /* font-style: oblique; */
     
 }
 
@@ -72,19 +70,23 @@ a:hover, a:focus{
 
 
 header {
-    width: 100vw;
-    height: 15vh;
+    width: 98vw;
+    height: 12vh;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid rgb(185, 185, 185);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    background:rgba(255, 255, 255, 0.4);
 } 
 
 .main-logo{
     width: 25vw;
     height: 10vh;
+    /* margin-bottom:2rem; */
 }
 .main-logo h2{
+    font-family: 'futura';
+    font-weight: 400;
     margin-left: 3rem;
     margin-top: 2rem;
 }
@@ -127,7 +129,7 @@ nav span a:hover, nav span a:focus{
 
 .main-intro{
     /* border: 1px solid rgb(0, 0, 0); */
-    width:100VW;
+    width:98vw;
     height: 30vw;
     display: flex;
     justify-content: center;
@@ -196,7 +198,7 @@ nav span a:hover, nav span a:focus{
 }
 
 .projects-container{
-    width: 100vw;
+    width: 98vw;
     height: auto;
     display: flex;
     /* flex-direction: column; */
@@ -429,29 +431,28 @@ footer {
   
 @media screen and (max-width: 600px){
     .main-intro{
-        width:100VW;
-        height: 70vw;
+        width:98vw;
+        height: 70vh;
         margin-bottom: 40vh;
     }
 }
   
 @media screen and (max-width: 900px) {
     .main-logo{
-        width: 100vw;
+        width: 98vw;
         height: auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin:0;
     }
     .main-logo h2{
         margin:0;
-        margin-top: 1rem;
+        /* margin-top: 0; */
     }
    
     .main-intro{
-        width:100VW;
-        height: 70vw;
+        width:98VW;
+        height: 70vh;
         margin-bottom: 20vh;
     }
 

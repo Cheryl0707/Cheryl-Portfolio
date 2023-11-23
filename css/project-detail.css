@@ -14,25 +14,52 @@
   top: 0;
   left: 0;
   background:rgba(255, 255, 255, 0.2);
-  /* background: #ffffff; */
-  border-right: 1px solid rgba(0,0,0,0.05);
   padding: 2vw 0vw;
   position: fixed;
+  /* background: #ffffff; */
+  border-right: 1px solid rgba(0,0,0,0.05);
+}
+
+.wrapper .sidebar-more{
+    display: none;
+}
+
+.wrapper .sidebar .sidebar-main{
+    /* border: #000000 1px solid; */
+    width:100%;
+    height: auto;
+}
+.wrapper .sidebar-more .sidebar-main{
+    display: none;
 }
 
 .wrapper .sidebar h2{
+  font-family: 'Futura';
+  font-style: normal;
   color: #000000;
-  text-transform: uppercase;
-  text-align: center;
+
+  padding-left:1vw;
   margin-bottom: 2vh;
 }
+.wrapper .more-button{
+    display: none;
+    width:1vw;
+    height: auto;
+}
+
+.wrapper .more-button img{
+    /* display: none; */
+    width:100%;
+    height: auto;
+}
+
 .wrapper .sidebar ul{
     list-style:none;
     padding-left:1vw;
     
     /* border-top: 1px solid rgba(0,0,0,0.05); */
-
 }
+
 .wrapper .sidebar ul h5{
     color: rgb(163, 158, 237);
     padding-top:2px;
@@ -46,9 +73,6 @@
   font-size: 14px;
   font-family: 'Futura';
   font-style: italic;
-  /* border-bottom: 1px solid #bdb8d7; */
-  /* border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05); */
 }    
 
 .wrapper .sidebar ul li a{
@@ -96,13 +120,7 @@
   height: auto;
   margin-left: 15vw;
 }
-@media screen and (max-width: 800px) {
-    .wrapper .main_content{
-        width: 100vw;
-        height: auto;
-        /* margin-left: 15vw; */
-      }
-}
+
 
 .wrapper .main_content .header{
   padding: 20px;
@@ -432,4 +450,232 @@
     width: 100%;
     height: auto;
     margin-left: 3rem;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    /* *{
+        border: #000000 1px solid;
+    } */
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        /* position: relative; */
+      }
+    .wrapper .sidebar{
+        width: 98vw;
+        height: 10vh;
+        top: 0;
+        background:rgba(255, 255, 255, 0.2);
+        padding: 1vw;
+        /* padding-bottom: 2; */
+        position: fixed;
+        /* background: #ffffff; */
+        border-right: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .wrapper .sidebar-more{
+        display: flex;
+        flex-direction: column;
+
+        width: 98vw;
+        height: 10vh;
+        top: 0;
+        background:rgba(255, 255, 255, 0.2);
+        padding: 1vw;
+        /* padding-bottom: 2; */
+        position: fixed;
+        /* background: #ffffff; */
+        border-right: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .wrapper .sidebar-more .sidebar-more-main .sidebar-more-main-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 60%;
+        height: auto;
+    }
+    .wrapper .sidebar-more .sidebar-more-main{
+        display: flex;
+        /* border: #000000 1px solid; */
+        width:100%;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .wrapper .sidebar-more ul{
+        list-style:none;
+        padding-left:1vw;
+    }
+
+    .wrapper .sidebar-more-main h2{
+        font-family: 'Futura';
+        font-style: normal;
+        color: #000000;
+      
+        padding-left: 1vw;
+        margin-bottom: 2vh;
+      }
+      .wrapper .sidebar-more-main p{
+        font-family: 'Futura';
+        font-style: normal;
+        color: #000000;
+        font-size: 1rem;
+      
+        padding-left:2vw;
+        padding-right:1vw;
+        margin-top: 4vh;
+      }
+      .wrapper .sidebar-more .more-button{
+          display: none;
+          width:1vw;
+          height: auto;
+      }
+      
+      .wrapper .sidebar-more .more-button img{
+          /* display: none; */
+          width:100%;
+          height: auto;
+      }
+      
+      .wrapper .sidebar-more ul{
+          list-style:none;
+          padding-left:1vw;
+          
+          /* border-top: 1px solid rgba(0,0,0,0.05); */
+      }
+      
+      .wrapper .sidebar-more ul h5{
+          color: rgb(163, 158, 237);
+          padding-top:2px;
+          margin: 0;
+          
+      }
+      
+      .wrapper .sidebar-more ul li{
+        padding: 1px 0px;
+        color: #000000;
+        font-size: 14px;
+        font-family: 'Futura';
+        font-style: italic;
+      }    
+      
+      .wrapper .sidebar-more ul li a{
+        color: #000000;
+        display: block;
+      }
+      
+      .wrapper .sidebar-more ul li a .fas{
+        width: 25px;
+      }
+      
+      /* .wrapper .sidebar ul li:hover{
+        background-color: #594f8d;
+      } */
+          
+      .wrapper .sidebar-more ul li:hover a{
+          color: rgb(163, 158, 237);
+          text-decoration: none;
+          transition: background-color 0.5s ease-out;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+    .wrapper .sidebar .sidebar-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .wrapper .more-button{
+        /* border: #000000 solid 1px; */
+        display:flex;
+        width:1.5rem;
+        height: 1.5rem;
+        margin-top: 1.25rem;
+    }
+    
+    .wrapper .more-button img{
+        /* display: none; */
+        width:100%;
+        height: 100%;
+    }
+    .wrapper .sidebar h2{
+        width: 90%;
+        height: auto;
+        font-family: 'Futura';
+        font-style: normal;
+        color: #000000;
+  /* text-transform: uppercase; */
+  /* text-align: center; */
+        padding-left:1vw;
+        margin-bottom: 2vh;
+      }
+
+      .wrapper .sidebar ul{
+        display: none;
+      }
+      
+      
+      .wrapper .sidebar ul h5{
+          color: rgb(163, 158, 237);
+          padding-top:2px;
+          margin: 0;
+          
+      }
+      
+      .wrapper .sidebar ul li{
+        padding: 1px 0px;
+        color: #000000;
+        font-size: 14px;
+        font-family: 'Futura';
+        font-style: italic;
+      }
+
+    .wrapper .main_content{
+        width: 98vw;
+        height: auto;
+        margin-left: 0;
+      }
+      
+      /* .wrapper .main_content .header{
+        padding: 20px;
+        background: #fff;
+        color: #717171;
+        border-bottom: 1px solid #e0e4e8;
+      }
+       */
+      
+      .wrapper .main_content .info{
+          width: 90%;
+          height: 80%;
+          /* border: #000000 1px solid; */
+          border-bottom:1px solid rgba(0,0,0,0.05); 
+          display: flex;
+          flex-direction: column;
+          justify-content:flex-start;
+          /* background-image: url("../image/dear-son/dear-son-cover.png"); */
+          background-color: #ffffff;
+          background-size: cover;
+          margin-bottom: 10vh;
+      }
+      .wrapper .main_content .info h1{
+          font-size: 2rem;
+          color: #000000;
+      }
+      .wrapper .main_content .info p{
+          font-size: 0.7rem;
+          color: #000000;
+      }
 }
