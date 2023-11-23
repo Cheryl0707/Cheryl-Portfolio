@@ -249,11 +249,13 @@
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    margin-left: 3rem;
 }
 
 .headline h1{
-    width: 25%;
+    width: 100%;
     height: auto;
     font-family: 'Futura';
     font-style: oblique;
@@ -659,7 +661,7 @@
       
       .wrapper .main_content .info{
           width: 90%;
-          height: 80%;
+          height: auto;
           /* border: #000000 1px solid; */
           border-bottom:1px solid rgba(0,0,0,0.05); 
           display: flex;
@@ -668,7 +670,7 @@
           /* background-image: url("../image/dear-son/dear-son-cover.png"); */
           background-color: #ffffff;
           background-size: cover;
-          margin-bottom: 10vh;
+          margin-bottom: 10vh; 
       }
       .wrapper .main_content .info h1{
           font-size: 2rem;
@@ -678,4 +680,11 @@
           font-size: 0.7rem;
           color: #000000;
       }
+
+      .project-description p{
+        width:90%;
+        height: auto;
+        padding-top: 0;
+        color: #fff;
+    }
 }
