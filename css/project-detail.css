@@ -119,6 +119,8 @@
   width: 82vw;
   height: auto;
   margin-left: 15vw;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -312,7 +314,6 @@
     display: flex;
     flex-direction: row;
     margin:3rem;
-    
 }
 
 
@@ -321,7 +322,6 @@
     height: auto;
     padding-right: 0.5rem;
       /* display: flex; */
-    
     flex-direction: column;
     justify-content: flex-start;
     /* flex-direction: column; */
@@ -457,7 +457,7 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     /* *{
         border: #000000 1px solid;
     } */
@@ -681,10 +681,254 @@
           color: #000000;
       }
 
+      .project-name{
+        margin: 3rem;
+        margin-bottom: 0;
+        padding-top:2rem;
+        margin-left: 1rem;
+      }
+        
+        .project-name h1{
+            font-family: 'futura';
+            font-size: xx-large;
+            font-weight: 900;
+            font-style: italic;
+            color: #fff;
+        }
+    
+      .project-description{
+        margin-left: 1rem;
+      }
+
       .project-description p{
         width:90%;
         height: auto;
         padding-top: 0;
+        
         color: #fff;
+    }
+
+    .headline-flex-start{
+        /* width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start; */
+        width: 90vw;
+        height: auto;
+        /* padding-right: 0.5rem; */
+          /* display: flex; */
+        
+        flex-direction: column;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+        /* margin-left:4vw;
+        margin-right:4vw; */
+        
+    }
+    
+    .headline-flex-start h1{
+        width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        font-style: oblique;
+        font-size: 23px;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        /* margin-bottom: 10vh; */
+    }
+
+    .sub-headline h3{
+        font-family: 'Futura';
+        font-style: italic;
+        margin-left: 1rem;
+        font-size: 16px;
+        /* margin-top: 2rem; */
+        /* margin-bottom: 10vh; */
+    }
+    
+    .paragraph-flex-start{
+        /* width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start; */
+        width: 90vw;
+        height: auto;
+        /* padding-right: 0.5rem; */
+          /* display: flex; */
+        
+        flex-direction: column;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+        /* margin-left:1vw; */
+        /* margin-right:4vw; */
+    }
+    
+    .paragraph-flex-start p{
+        width: 90%;
+        height: auto;
+        font-family: 'Futura';
+        margin-bottom: 10vh;
+        margin-left: 1rem;
+    
+    
+    }
+
+
+    .section-divided-by-3{
+        /* width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:1rem; */
+        width:90vw;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:4vw;
+        margin-right:4vw;
+    }
+    .section-divided-by-3-elements-same-height{
+        width: 90vw;
+        height: auto;
+        padding-right: 0.5rem;
+          /* display: flex; */
+        
+        flex-direction: column;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+        /* margin-left:4vw; */
+        margin-right:4vw;
+    }
+    
+    .section-divided-by-3-elements-same-height img{
+        width: 100%;
+        height: auto;
+    }
+    .section-divided-by-3-elements-same-height p{
+        width: 100%;
+        height: auto;
+    }
+    
+    .section-divided-by-3-elements-same-height-1{
+        width: 100%;
+        height: auto;
+        /* padding-right: 0.5rem; */
+          /* display: flex; */
+        
+        flex-direction: column;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+    
+    .section-divided-by-3-elements-same-height-1 img{
+        width: 100%;
+        height: auto;
+    }
+    .section-divided-by-3-elements-same-height-1 p{
+        width: 100%;
+        height: auto;
+    }
+
+    .section-divided-by-2-text-image{
+        width: 98vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* margin: 3rem; */
+    }
+    
+    .section-divided-by-2-elements-40-percent{
+        width:90vw;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:4vw;
+        margin-right:4vw;
+    }
+
+    .section-divided-by-2-elements-40-percent h1{
+        width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        font-style: oblique;
+        margin-left:4vw;
+
+    }
+    .section-divided-by-2-elements-40-percent p{
+        width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        /* font-style: oblique; */
+    }
+    .section-divided-by-2-elements-40-percent img{
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .section-divided-by-2-elements-50-percent{
+        width:90vw;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:4vw;
+        margin-right:4vw;
+
+    }
+    .section-divided-by-2-elements-50-percent h3{
+        width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        font-style: oblique;
+    }
+    
+    .section-divided-by-2-elements-50-percent img{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .section-divided-by-2-elements-60-percent{
+        width:90vw;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:4vw;
+        margin-right:4vw;
+        
+    }
+    .section-divided-by-2-elements-60-percent h1{
+        /* width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        font-style: oblique;
+        margin-left:2vw; */
+        width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        font-style: oblique;
+        font-size: 23px;
+        margin-left: 1vw;
+        margin-top: 3rem;
+    }
+
+    .section-divided-by-2-elements-60-percent p{
+        width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        margin-left:1vw;
+        /* font-style: oblique; */
+    }
+
+    .section-divided-by-2-elements-60-percent img{
+        width: 100%;
+        height: auto;
+        margin-left: 0rem;
     }
 }
