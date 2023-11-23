@@ -11,7 +11,9 @@
 .wrapper .sidebar{
   width: 15vw;
   height: 100%;
-  /* background: #4b4276; */
+  top: 0;
+  left: 0;
+  background:rgba(255, 255, 255, 0.2);
   /* background: #ffffff; */
   border-right: 1px solid rgba(0,0,0,0.05);
   padding: 2vw 0vw;
@@ -94,6 +96,13 @@
   height: auto;
   margin-left: 15vw;
 }
+@media screen and (max-width: 800px) {
+    .wrapper .main_content{
+        width: 100vw;
+        height: auto;
+        /* margin-left: 15vw; */
+      }
+}
 
 .wrapper .main_content .header{
   padding: 20px;
@@ -102,145 +111,32 @@
   border-bottom: 1px solid #e0e4e8;
 }
 
-.wrapper .main_content .info-shootingstar{
+
+.wrapper .main_content .info{
     width: 100%;
-    height:56vh;
-    border: #000000 1px solid;
+    height: 60vh;
+    /* border: #000000 1px solid; */
+    border-bottom:1px solid rgba(0,0,0,0.05); 
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
-    background-image: url("../image/shooting-star/shooting-star-cover.png");
-    background-color: #cccccc;
+    /* background-image: url("../image/dear-son/dear-son-cover.png"); */
+    background-color: #ffffff;
     background-size: cover;
     margin-bottom: 10vh;
 }
-.wrapper .main_content .info-dearson{
-    width: 100%;
-    height:56vh;
-    border: #000000 1px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    background-image: url("../image/dear-son/dear-son-cover.png");
-    background-color: #cccccc;
-    background-size: cover;
-    margin-bottom: 10vh;
-}
-
-.wrapper .main_content .info-thejoureyison{
-    width: 100%;
-    height:56vh;
-    border: #000000 1px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    background-image: url("../image/343/the-journey-is-on-cover.png");
-    background-color: #cccccc;
-    background-size: cover;
-    margin-bottom: 10vh;
-}
-.wrapper .main_content .info-animolopoly{
-    width: 100%;
-    height:60vh;
-    border: #000000 1px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    /* background-image: url("../image/343/the-journey-is-on-cover.png"); */
-    background-color: #000000;
-    background-size: cover;
-    /* margin-bottom: 10vh; */
-}
-.wrapper .main_content .info-animolopoly h1{
-    color: #FCDF90;
-}
-.wrapper .main_content .info-animolopoly p{
-    color: #FCDF90;
-}
-
-.wrapper .main_content .info-Pærs{
-    width: 100%;
-    height:64vh;
-    /* border: #000000 1px solid; */
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    /* background-image: url("../image/343/the-journey-is-on-cover.png"); */
-    background-color: #ffffff;
-    background-size: cover;
-    
-    /* margin-bottom: 10vh; */
-}
-.wrapper .main_content .info-Pærs p {
+.wrapper .main_content .info h1{
+    font-size: 3rem;
     color: #000000;
 }
-.wrapper .main_content .info-Pærs h1 {
+.wrapper .main_content .info p{
+    font-size: 1rem;
     color: #000000;
 }
 
-.wrapper .main_content .info-quasimodo{
-    width: 100%;
-    height:64vh;
-    /* border: #000000 1px solid; */
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    /* background-image: url("../image/343/the-journey-is-on-cover.png"); */
-    background-color: #ffffff;
-    background-size: cover;
-    
-    /* margin-bottom: 10vh; */
-}
-.wrapper .main_content .info-quasimodo p {
-    color: #000000;
-}
-.wrapper .main_content .info-quasimodo h1 {
-    color: #000000;
-}
-.wrapper .main_content .info-squirrel{
-    width: 100%;
-    height:64vh;
-    /* border: #000000 1px solid; */
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    /* background-image: url("../image/343/the-journey-is-on-cover.png"); */
-    background-color: #ffffff;
-    background-size: cover;
-}
-
-.wrapper .main_content .info-squirrel p{
-    color: #000000;
-}
-.wrapper .main_content .info-squirrel h1{
-    color: #000000;
-}
-.wrapper .main_content .info-designbyarobot{
-    width: 100%;
-    height:64vh;
-    /* border: #000000 1px solid; */
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    background-image: url("../image/project-design-by-a-robot/cover.png");
-    /* background-color: #ffffff; */
-    background-size: cover;
-}
-.wrapper .main_content .info-designbyarobot p {
-    color: #ffffff;
-}
-.wrapper .main_content .info-designbyarobot h1 {
-    color: #ffffff;
-}
-
+/* 这个没懂是干嘛的 */
 .wrapper .main_content .info div{
   margin-bottom: 0px;
-}
-
-@media (max-height: 500px){
-  .social_media{
-    display: none !important;
-  }
 }
 
 /* side bar end here */
@@ -307,7 +203,9 @@
 .image-column{
     width: 95%;
     height: auto;
-    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 3rem; */
 }
 
 .image-column img{
