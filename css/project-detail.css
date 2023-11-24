@@ -472,12 +472,15 @@
     height:auto;
     display:flex;
     flex-direction: column;
+    
 }
-.section-divided-by-2-elements-50-percent h3{
+
+.section-divided-by-2-elements-50-percent h1,h2,h3,h4,h5,h6{
     width: 100%;
     height: auto;
     font-family: 'Futura';
     font-style: oblique;
+    font-weight: 600;
 }
 
 .section-divided-by-2-elements-50-percent img{
@@ -499,6 +502,35 @@
 .section-divided-by-2-elements-50-percent-row p{
     width:60%;
     height: auto;
+}
+
+.section-divided-by-2-elements-50-percent-column{
+    width:90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: #246D39 2px solid;
+    padding: 0;
+}
+.section-divided-by-2-elements-50-percent-column h2{
+    color: #246D39;
+    width:100%;
+    height: auto;
+    padding-left: 1.6rem;
+    
+}
+.section-divided-by-2-elements-50-percent-column h3{
+    color: #246D39;
+    width:100%;
+    height: auto;
+    padding-left: 1.6rem;
+    font-weight: 600;
+}
+.section-divided-by-2-elements-50-percent-column p{
+    width:100%;
+    height: auto;
+    padding-left: 1.6rem;
 }
 
 .section-divided-by-2-elements-60-percent{
