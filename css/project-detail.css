@@ -261,6 +261,22 @@
     height: auto;
 }
 
+.image-column-prototype{
+    width: 100%;
+    height: auto;
+}
+.image-column-prototype img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.image-column-prototype a:hover,.image-column-prototype a:focus {
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+
 .image-column-divided-by-2{
     width:50%;
     height: auto;
