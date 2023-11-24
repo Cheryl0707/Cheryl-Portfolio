@@ -512,6 +512,12 @@
     font-family: 'Futura';
     font-style: oblique;
 }
+.section-divided-by-2-elements-60-percent h3{
+    width: 100%;
+    height: auto;
+    font-family: 'Futura';
+    font-style: oblique;
+}
 
 .section-divided-by-2-elements-60-percent p{
     width: 100%;
