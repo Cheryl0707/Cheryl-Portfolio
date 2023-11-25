@@ -37,8 +37,7 @@
   font-family: 'Futura';
   font-style: normal;
   color: #000000;
-
-  padding-left:1vw;
+  /* padding-left:1vw; */
   margin-bottom: 2vh;
 }
 .wrapper .more-button{
