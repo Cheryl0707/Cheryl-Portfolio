@@ -133,7 +133,8 @@ nav span a:hover, nav span a:focus{
     height: 30vw;
     display: flex;
     justify-content: center;
-    margin-top:20vh;
+    margin-top:15vh;
+    margin-bottom:15vh;
     /* align-items: center; */
 }
 
@@ -355,7 +356,6 @@ footer {
     border-top: 1px solid rgba(0,0,0,0.05);
     color: #000000;
     padding: 30px 0;
-    
   }
   
   .footer-content {
@@ -400,12 +400,43 @@ footer {
   }
 
 
+  /* test new footer */
+
+  .social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    transition: all .3s ease;
+}
+
+.social-icon:hover {
+    border-color: #ff594f;
+    background-color: #ff594f;
+    color: #fff;
+}
+
+.social-icon__text {
+    margin-left: 6px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: relative;
+    text-align: center; */
+}
   
 @media screen and (max-width: 600px){
     .main-intro{
         width:98vw;
         height: 70vh;
-        margin-bottom: 40vh;
+        /* margin-bottom: 40vh; */
     }
 }
   
