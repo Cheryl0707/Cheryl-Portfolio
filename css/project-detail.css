@@ -372,8 +372,6 @@
     font-family: 'Futura';
     margin-bottom: 2rem;
     margin-left: 3rem;
-
-
 }
 
 .section-divided-by-3{
@@ -578,6 +576,17 @@
     margin-left: 3rem;
 }
 
+.section-divided-by-3-elements img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  .section-divided-by-3-elements img:hover,.section-divided-by-3-elements img:focus {
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
+  }
 
 
 
@@ -924,9 +933,7 @@
         height: auto;
         font-family: 'Futura';
         margin-bottom: 10vh;
-        margin-left: 1rem;
-    
-    
+        margin-left: 3rem;
     }
     .section{
         width: 100%;
