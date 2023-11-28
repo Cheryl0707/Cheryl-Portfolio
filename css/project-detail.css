@@ -163,9 +163,11 @@
 .section{
     width: 100%;
     height: auto;
-    margin-bottom:1rem;
+    /* margin-top: 3rem; */
+    margin-bottom:4rem;
    
 }
+
 .section-flex-column{
     width: 100%;
     height: auto;
@@ -249,7 +251,7 @@
     width: 84vw;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* margin-left: 3rem; */
 }
@@ -258,6 +260,16 @@
 .image-column img{
     width: 100%;
     height: auto;
+}
+
+.image-column-element-same-height{
+    width: auto;
+    height: 25vh;
+}
+
+.image-column-element-same-height img{
+    width: auto;
+    height: 100%;
 }
 
 .image-column-prototype{
@@ -299,8 +311,8 @@
 .image-centered img{
     width: 90%;
     height: auto;
-    margin: 2rem;
-    margin-top:3rem;
+    /* margin: 2rem; */
+    /* margin-top:1rem; */
 }
 
 .headline{
@@ -358,7 +370,7 @@
     width: 100%;
     height: auto;
     font-family: 'Futura';
-    margin-bottom: 10vh;
+    margin-bottom: 2rem;
     margin-left: 3rem;
 
 
@@ -369,7 +381,7 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    margin:3rem;
+    margin-left:3rem;
 }
 
 
@@ -413,7 +425,7 @@
 
 .section-divided-by-3-elements-same-height-1{
     width: auto;
-    height: 33vh;
+    height: 30vh;
     padding-right: 0.5rem;
       /* display: flex; */
     
@@ -480,6 +492,7 @@
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 600;
+    margin-left: 0;
 }
 
 .section-divided-by-2-elements-50-percent img{
@@ -548,13 +561,14 @@
     height: auto;
     font-family: 'Futura';
     font-style: oblique;
+    margin-left: 3rem;
 }
 
 .section-divided-by-2-elements-60-percent p{
     width: 100%;
     height: auto;
     font-family: 'Futura';
-    /* margin-left: 3rem; */
+    margin-left: 3rem;
     /* font-style: oblique; */
 }
 
@@ -693,6 +707,7 @@
           text-decoration: none;
           transition: background-color 0.5s ease-out;
       }
+
 
 
 
@@ -1082,6 +1097,21 @@
         
     }
     .section-divided-by-2-elements-60-percent h1{
+        /* width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        font-style: oblique;
+        margin-left:2vw; */
+        width: 100%;
+        height: auto;
+        font-family: 'Futura';
+        font-style: oblique;
+        font-size: 23px;
+        margin-left: 1vw;
+        margin-top: 3rem;
+    }
+
+    .section-divided-by-2-elements-60-percent h3{
         /* width: 100%;
         height: auto;
         font-family: 'Futura';
