@@ -19,7 +19,7 @@
 
 
 .profile-image{
-    width:40vw;
+    width:60vw;
     height: auto;
     padding:3rem;
 }
@@ -29,7 +29,7 @@
     height: auto;
 }
 .profile-intro{
-    width:90vw;
+    width:80vw;
     height: auto;
     padding:3rem;
 }

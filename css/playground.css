@@ -62,7 +62,13 @@
   .single-project-overview-title{
     width: 30vw;
     height: auto;
-    margin-left:2rem ;
+    /* margin-left:2rem ; */
+  }
+
+  .single-project-overview-title-video{
+    width: 30vw;
+    height: auto;
+    margin-left: 2rem ;
   }
 
   .video-container{
