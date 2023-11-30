@@ -132,7 +132,7 @@ nav span a:hover, nav span a:focus{
 .main-intro{
     /* border: 1px solid rgb(0, 0, 0); */
     width:98vw;
-    height: 26vw;
+    height: 24vw;
     display: flex;
     justify-content: center;
     margin-top:15vh;
@@ -459,14 +459,7 @@ nav span a:hover, nav span a:focus{
     text-align: center; */
 }
   
-@media screen and (max-width: 600px){
-    .main-intro{
-        width:98vw;
-        height: 70vh;
-        /* margin-bottom: 40vh; */
-    }
-}
-  
+
 @media screen and (max-width: 900px) {
     .main-logo{
         width: 98vw;
@@ -481,9 +474,9 @@ nav span a:hover, nav span a:focus{
     }
    
     .main-intro{
-        width:98VW;
-        height: 70vh;
-        margin-bottom: 20vh;
+        width:98vw;
+        height: 30vh;
+        /* margin-bottom: 10vh; */
     }
 
     .nav-bar{
