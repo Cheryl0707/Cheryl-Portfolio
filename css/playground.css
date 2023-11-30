@@ -107,6 +107,16 @@
         height: auto;
     }
 
+    .projects-overview-video{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 5rem;
+      padding-top: 10vh;
+    }
+
     .single-project-overview-image{
         display: flex;
         flex-direction: column;
@@ -126,4 +136,9 @@
         height: 100%;
       }
       
+      .single-project-overview-title-video{
+        width: 80vw;
+        height: auto;
+        margin-left: 0rem ;
+      }
   }
