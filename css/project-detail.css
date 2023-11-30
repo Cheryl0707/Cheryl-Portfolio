@@ -897,15 +897,15 @@
         font-family: 'Futura';
         font-style: oblique;
         font-size: 23px;
-        margin-left: 1rem;
         margin-top: 3rem;
+        margin-left: 0rem;
         /* margin-bottom: 10vh; */
     }
 
     .sub-headline h3{
         font-family: 'Futura';
         font-style: italic;
-        margin-left: 1rem;
+        margin-left: 0rem;
         font-size: 16px;
         /* margin-top: 2rem; */
         /* margin-bottom: 10vh; */
@@ -924,7 +924,7 @@
         flex-direction: column;
         justify-content: flex-start;
         /* flex-direction: column; */
-        margin-left:5vw;
+        /* margin-left:5vw; */
         /* margin-right:4vw; */
     }
     
@@ -933,7 +933,7 @@
         height: auto;
         font-family: 'Futura';
         margin-bottom: 10vh;
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
     }
     .section{
         width: 100%;
